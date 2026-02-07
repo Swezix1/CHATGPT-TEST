@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "playtime_tracker",
+  "version": "${version}",
+  "name": "Playtime Tracker",
+  "description": "Scans tab list for non-donators, запрос /playtime and writes totals to a file.",
+  "authors": [
+    "ChatGPT"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.playtimetracker.PlaytimeTrackerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
